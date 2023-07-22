@@ -1,5 +1,5 @@
     bool isValidSudoku(vector<vector<char>>& board) {
-        int rows[9][9]={0};
+    int rows[9][9]={0};
 	int cols[9][9]={0};
 	int blocks[3][3][9]={0};
 	for(int r=0;r<9;r++)
